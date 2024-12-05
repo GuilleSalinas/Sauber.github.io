@@ -1,0 +1,52 @@
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.servi .card {
+  background: #f6f9f8;
+  position: relative;
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: 0px 0 25px 0 rgba(16, 16, 16, 0.1);
+}
+
+.servi .card .card-img {
+  overflow: hidden;
+  margin-bottom: 15px;
+  border-radius: 10px 10px 0 0;
+}
+
+.servi .card .card-img img {
+  transition: 0.3s ease-in-out;
+}
+
+.servi .card h3 {
+  color: #222222;
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+.servi .card a {
+  color: #222222;
+  transition: 0.3;
+}
+
+.servi .card a:hover {
+  color: var(--color-primary);
+}
+
+.servi .card p {
+  padding: 0 30px;
+  margin-bottom: 30px;
+  color: #222222;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.servi .card:hover .card-img img {
+  transform: scale(1.1);
+}
+
+  
