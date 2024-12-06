@@ -157,7 +157,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #ffffff;
   transition: all 0.5s;
   z-index: 997;
   height: 86px;
@@ -168,30 +168,40 @@ h6 {
   height: 70px;
 }
 
-#header .logo {
-  font-size: 30px;
+/* #header .logo {
+  font-size: 80px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.8px;
   font-family: "Poppins", sans-serif;
-}
+} */
 
-#header .logo a {
+/* #header .logo a {
   color: #2a678c;
-}
+} */
 
-#header .logo a span {
+/* #header .logo a span {
   color: #2a678c;
-}
+} */
 
-#header .logo img {
-  max-height: 40px;
+#header .logoTamano img {
+  /* height: 100px; */
+  width: 40vw;
+  /* width: 300px; */
+  /* overflow: hidden; */
+  /* max-height: 160px; */
 }
 
 .scrolled-offset {
   margin-top: 70px;
+}
+
+@media (max-height: 500px) {
+  .header .logoTamano img {
+        width: 140px;
+    }
 }
 
 /*--------------------------------------------------------------
@@ -457,14 +467,15 @@ h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/hero-bg.png") top left;
+  background: url("../img/hero-bg1.png") top left;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.675);
+  /* background: rgba(255, 255, 255, 0.255); */
+  background: rgba(253, 253, 253, 0.343);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -503,10 +514,10 @@ h6 {
 }
 
 #hero h2 {
-  color: #555555;
+  color: #000000;
   margin: 5px 0 30px 0;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 #hero .btn-get-started {
@@ -1980,7 +1991,7 @@ section {
 #footer .credits {
   float: right;
   text-align: center;
-  font-size: 13px;
+  font-size: 10px;
   color: #444444;
 }
 
