@@ -1,5 +1,5 @@
 /**
-* Author: Plano SoftwareGS
+* Author: Plano Software
 */
 
 /*--------------------------------------------------------------
@@ -168,28 +168,11 @@ h6 {
   height: 70px;
 }
 
-/* #header .logo {
-  font-size: 80px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  letter-spacing: 0.8px;
-  font-family: "Poppins", sans-serif;
-} */
-
-/* #header .logo a {
-  color: #2a678c;
-} */
-
-/* #header .logo a span {
-  color: #2a678c;
-} */
 
 .llogo img {
   width: 40vw; /* Cambia este valor al tamaño deseado */
   height: auto; /* Mantiene la proporción original de la imagen */
-  /* background: #17d617; */
+
 }
 
 .scrolled-offset {
@@ -199,7 +182,6 @@ h6 {
 @media (max-width: 768px) {
   .llogo img {
     width: 100vw;
-    /* background: #46c2de; */
   }
 }
 
@@ -474,7 +456,6 @@ h6 {
 
 #hero:before {
   content: "";
-  /* background: rgba(255, 255, 255, 0.255); */
   background: rgba(253, 253, 253, 0.343);
   position: absolute;
   bottom: 0;
@@ -572,6 +553,7 @@ h6 {
 
 @media (min-width: 1024px) {
   #hero {
+    height: 90vh;
     background-attachment: fixed;
   }
 }
@@ -799,26 +781,12 @@ section {
 .about .content ul li {
   padding-bottom: 10px;
 }
-/* .about .content ul li {
-  display: flex;
-  align-items: flex-start;
-  margin-top: 5px;
-  margin-bottom: 10px;
-} */
+
 
 .about .content ul li:first-child {
   margin-top: 5px;
 }
 
-/* .about .content ul i {
-  background: #fff;
-  box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
-  font-size: 24px;
-  padding: 0px;
-  margin-right: 15px;
-  color: #2a678c;
-  border-radius: 50px;
-} */
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
@@ -874,53 +842,6 @@ section {
   transition: 0.9s;
   background-color: #2a678c;
 }
-
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
-/* .counts {
-  padding: 70px 0 60px;
-}
-
-.counts .count-box {
-  padding: 30px 30px 25px 30px;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  background: #f1f6fe;
-}
-
-.counts .count-box i {
-  position: absolute;
-  top: -28px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 24px;
-  background: #2a678c;
-  color: #fff;
-  width: 56px;
-  height: 56px;
-  line-height: 0;
-  border-radius: 50px;
-  border: 5px solid #fff;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.counts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
-  color: #062b5b;
-}
-
-.counts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-} */
 
 /*--------------------------------------------------------------
 # Clients
@@ -1449,87 +1370,6 @@ section {
   opacity: 1;
   bottom: 15px;
 }
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-/* .team {
-  padding: 60px 0;
-}
-
-.team .member {
-  margin-bottom: 20px;
-  overflow: hidden;
-  border-radius: 4px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
-}
-
-.team .member .member-img {
-  position: relative;
-  overflow: hidden;
-}
-
-.team .member .social {
-  position: absolute;
-  left: 0;
-  bottom: 30px;
-  right: 0;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
-  text-align: center;
-}
-
-.team .member .social a {
-  transition: color 0.3s;
-  color: #222222;
-  margin: 0 3px;
-  padding-top: 7px;
-  border-radius: 4px;
-  width: 36px;
-  height: 36px;
-  background: rgba(16, 110, 234, 0.8);
-  display: inline-block;
-  transition: ease-in-out 0.3s;
-  color: #fff;
-}
-
-.team .member .social a:hover {
-  background: #3f768c;
-}
-
-.team .member .social i {
-  font-size: 18px;
-}
-
-.team .member .member-info {
-  padding: 25px 15px;
-}
-
-.team .member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: #222222;
-}
-
-.team .member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: #aaaaaa;
-}
-
-.team .member .member-info p {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  color: #777777;
-}
-
-.team .member:hover .social {
-  opacity: 1;
-  bottom: 15px;
-} */
 
 /*--------------------------------------------------------------
 # Pricing
