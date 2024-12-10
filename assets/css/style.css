@@ -491,11 +491,11 @@ h6 {
 }
 
 #hero h1 span {
-  color: #ffffff;
+  color: #000000;
 }
 #hero h3 span {
-  color: #000000;
-  text-shadow: 5px 0px 4px rgb(34, 32, 32);
+  color: #ffffff;
+  text-shadow: 3px 0px 3px rgb(34, 32, 32);
   
 }
 
