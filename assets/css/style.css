@@ -186,23 +186,23 @@ h6 {
   color: #2a678c;
 } */
 
-#header .logoTamano img {
-  /* height: 100px; */
-  width: 40vw;
-  /* width: 300px; */
-  /* overflow: hidden; */
-  /* max-height: 160px; */
+.llogo img {
+  width: 40vw; /* Cambia este valor al tamaño deseado */
+  height: auto; /* Mantiene la proporción original de la imagen */
+  /* background: #17d617; */
 }
 
 .scrolled-offset {
   margin-top: 70px;
 }
 
-@media (max-height: 500px) {
-  .header .logoTamano img {
-        width: 140px;
-    }
+@media (max-width: 768px) {
+  .llogo img {
+    width: 100vw;
+    /* background: #46c2de; */
+  }
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
